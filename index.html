@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            margin: 0 auto 20px;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .subtitle {
+            color: #777;
+            margin-bottom: 25px;
+            font-size: 15px;
+        }
+
+        .description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .skill {
+            background: #f0f0f5;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+        }
+
+        .btn-secondary {
+            background: #f0f0f5;
+            color: #555;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="avatar">🐾</div>
+        <h1>Pet Project</h1>
+        <p class="subtitle">Проект приложения для ресторана</p>
+
+        <p class="description">
+            Я разработала небольшое приложение для создания столов от лица официантов и администратора. Админ также может следить за остатками и сотрудниками и тестированием приложения. В процессе разработки приложения я узнала как прописывать тестирование, подключать базу данных, разделять обязанности пользователей. Также у продукта множество перспектив на дальнейшие улучшение работоспособности и защиту от левачества. Например создание и подключение мобильной версии или создание истории заказов.
+        </p>
+
+        <div class="skills">
+            <span class="skill">C#</span>
+            <span class="skill">.NET</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">Git</span>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/lol5366/WelkinRestaurant.git" class="btn btn-primary" target="_blank">
+                GitHub
+            </a>
+            
+        </div>
+
+        <footer>© 2026 lol5366</footer>
+    </div>
+</body>
+</html>
